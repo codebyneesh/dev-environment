@@ -19,7 +19,22 @@ Verify the remote:
 
     git remote -v
 
-    
+## Setting Up a New Mac
+
+1. Install Homebrew.
+2. Clone this repository.
+3. Check the current environment:
+
+       brew bundle check --file=Brewfile
+
+4. Install declared dependencies:
+
+       brew bundle --file=Brewfile
+
+5. Verify the environment:
+
+       brew bundle check --file=Brewfile
+       
 ## Container Runtime
 
 ### Initial State
