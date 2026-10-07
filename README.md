@@ -1,5 +1,15 @@
 # Dev Environment Setup
 
+## Environment Verification
+
+This environment was successfully reproduced on:
+
+- Mac mini — Apple Silicon
+- MacBook Pro — Apple Silicon
+
+The development toolchain is managed through the Brewfile.
+VS Code settings and extensions are synchronized using VS Code Settings Sync.
+
 ## Repository Setup
 
 Initialize the local repository:
@@ -34,7 +44,7 @@ Verify the remote:
 5. Verify the environment:
 
        brew bundle check --file=Brewfile
-       
+
 ## Container Runtime
 
 ### Initial State
